@@ -15,32 +15,62 @@ body{
 
 }
 #headface-icon-p{
-  color:#00bdaa;
-  font-family: "arial sans-serif";
+  color:black;
+  width: 20px;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+
+
 }
 #testimonials{
   text-align: center;
 
   background-color: #fff;
   color:black;
+  padding: 10% 15%;
 
 }
+#features{
+  text-align: center;
+  background-color: #daf1f9;
 
+}
+#testimonial-carousel{
+
+}
+#vision{
+  text-align: center;
+  background-color: #daf1f9;
+  padding:10% 15%;
+
+}
+#bottomface{
+  background-color: #242729;
+  color:#6a737c;
+  height: 300px;
+}
 /* class */
 .carousel-control-prev-icon{
-  /* color:black; */
 
+  /* background-color: black; */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  position: relative;
+  right:100px;
 }
 .carousel-control-next-icon{
-  /* color:black; */
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  position: relative;
+  left:100px;
 
 }
 .navbar-brand{
   font-size: 1.8rem;
 }
 .headface-nav {
-background-color: #aeeff0;
+/* background-color: #aeeff0; */
 /* border-bottom: solid 2px ; */
 /* border-top: solid 2px; */
 outline-style:  solid;
@@ -65,24 +95,34 @@ outline-color: #00bdaa;
 }
 .headface-row{
   text-align: center;
-  background-color: #aeeff0;
-  color:#08ffc8;
+  /* background-color: #aeeff0; */
+  color:#fff;
   /* #00bdaa; */
-  padding:7% 15%;
+  padding:50px 20px;
 }
 .headface-icon{
-  text-align: center;
-  background-color: #aeeff0;
-  color:#00bdaa;
+  /* text-align: center; */
+  /* background-color: #aeeff0; */
+  color:#fff;
+  /* #00bdaa; */
 
   padding:10px 10px;
 }
 .testimonial-image{
-  width: 10%;
+  width: 150px;
   border-radius: 100%;
   margin: 20px;
 }
 
 .row{
   /* margin-right: 0; */
+}
+
+.logo{
+  width:200px;
+  height: 200px;
+  position:absolute;
+  opacity: 50%;
+  top: 100px;
+
 }
