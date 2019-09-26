@@ -55,6 +55,11 @@ vertical-align: middle;
   padding: 7% 15%;
 
 }
+.whitebkg{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 7% 15%;
+}
 #bottomface .sm{
 
   color: #dee2e6;
@@ -85,6 +90,14 @@ vertical-align: middle;
 /* class custom-in */
 .custom-in{
   padding:7% 15%;
+}
+/* This was to help with the card images on the aboutus page */
+.card-img{
+  /* width: 200px;
+  height: 200px; */
+}
+.card-body-c{
+  width:auto;
 }
 .carousel-control-prev-icon{
 
