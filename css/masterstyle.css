@@ -52,7 +52,7 @@ vertical-align: middle;
 .colourbkg{
   text-align: center;
   background-color: #daf1f9;
-  padding: 7% 15%;
+  padding: 7% 10%;
 
 }
 .whitebkg{
@@ -84,6 +84,7 @@ vertical-align: middle;
   background-color: #242729;
   color:#6a737c;
   height: 200px;
+
 
   /* #dee2e6; */
 }
@@ -165,10 +166,15 @@ outline-color: #00bdaa;
   width:200px;
   height: 200px;
   position:absolute;
-
+  /* border-radius: 10%; */
   top: 100px;
 
 }
 .features-ul-li{
   list-style-type: none;
+}
+.bigpic{
+  width:100%;
+  margin:0;
+
 }
